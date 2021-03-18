@@ -634,8 +634,8 @@ public class TestDriver {
         try {
             String logFileName = "results.log";
             PrintStream stream = new PrintStream(new File(logFileName));
-            System.setOut(stream);
-            System.setErr(stream);
+            //System.setOut(stream);
+            //System.setErr(stream);
 
             System.out.println("CPEN 431 Test Client");
             System.out.println("Time: " + new Date().toString());
