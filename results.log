@@ -1,7 +1,7 @@
 CPEN 431 Test Client
-Time: Wed Mar 17 19:38:54 UTC 2021
-Build Date: Wed Mar 17 19:26:43 UTC 2021
-Java process ID: 19870
+Time: Wed Mar 17 23:56:52 UTC 2021
+Build Date: Wed Mar 17 23:56:02 UTC 2021
+Java process ID: 29285
 Running test in local mode! Milestone2.
 [Milestone2 Tests]
 Secret: 0
@@ -17,145 +17,95 @@ The deployment has 6 server nodes.
 Checking if server(s) are up... 
 Checking if server is up... 
 [Test isAlive]
-[ ... Completed in 0.009 seconds ]
+[ ... Completed in 0.024 seconds ]
 [OK]
-[ ... Completed in 0.08 seconds ]
+[ ... Completed in 0.081 seconds ]
 [OK]
 Stage 1 Single Front-End: Test Status: TEST_PASSED
 Clients: 1
-Total Requests (without replies): 4470
-Total Requests (including replies): 4470
-Successful Responses: 4470
+Total Requests (without replies): 4466
+Total Requests (including replies): 4466
+Successful Responses: 4466
 Timeout Responses: 0
 Total Failed Responses: 0
 % Success: 100.0
 % Timeout: 0.0
 % Failed: 0.0
 Response Time (Successful requests):
-[max] 93ms, [min] 0ms
-[avg] 13.189261744966442 ms, [stdev] 11.172992811184633ms
-Throughput: 74.44912643027264 requests per second
-Goodput: 74.44912643027264 requests per second
+[max] 101ms, [min] 0ms
+[avg] 13.211822660098521 ms, [stdev] 10.929297018118081ms
+Throughput: 74.3924175037063 requests per second
+Goodput: 74.3924175037063 requests per second
 Retry Rate (Successful requests): 1.0
 Sending WIPE-OUT to all servers...
-[ ... Completed in 0.138 seconds ]
+[ ... Completed in 0.202 seconds ]
 [OK]
-[ ... TEST Completed in 61.09 seconds ]
+[ ... TEST Completed in 61.023 seconds ]
 
 [ TEST Single Front-End Performance (16 clients, 60.0 seconds): PUT -> GET (closed loop) ]
 Checking if server(s) are up... 
 Checking if server is up... 
 [Test isAlive]
-[ ... Completed in 0.047 seconds ]
+[ ... Completed in 0.025 seconds ]
 [OK]
-[ ... Completed in 0.073 seconds ]
+[ ... Completed in 0.069 seconds ]
 [OK]
 Stage 1 Single Front-End: Test Status: TEST_PASSED
 Clients: 16
-Total Requests (without replies): 23850
-Total Requests (including replies): 23850
-Successful Responses: 23850
+Total Requests (without replies): 25078
+Total Requests (including replies): 25078
+Successful Responses: 25078
 Timeout Responses: 0
 Total Failed Responses: 0
 % Success: 100.0
 % Timeout: 0.0
 % Failed: 0.0
 Response Time (Successful requests):
-[max] 203ms, [min] 1ms
-[avg] 40.104234800838576 ms, [stdev] 22.305337632241073ms
-Throughput: 396.8319994675629 requests per second
-Goodput: 396.8319994675629 requests per second
+[max] 199ms, [min] 1ms
+[avg] 38.157747826780444 ms, [stdev] 22.22396130488276ms
+Throughput: 417.41706752775514 requests per second
+Goodput: 417.41706752775514 requests per second
 Retry Rate (Successful requests): 1.0
 Sending WIPE-OUT to all servers...
-[ ... Completed in 0.138 seconds ]
+[ ... Completed in 0.057 seconds ]
 [OK]
-[ ... TEST Completed in 60.556 seconds ]
+[ ... TEST Completed in 60.395 seconds ]
 
 [ TEST Single Front-End Performance (32 clients, 60.0 seconds): PUT -> GET (closed loop) ]
 Checking if server(s) are up... 
 Checking if server is up... 
 [Test isAlive]
-[ ... Completed in 0.053 seconds ]
+[ ... Completed in 0.018 seconds ]
 [OK]
-[ ... Completed in 0.06 seconds ]
+[ ... Completed in 0.035 seconds ]
 [OK]
 Stage 1 Single Front-End: Test Status: TEST_PASSED
 Clients: 32
-Total Requests (without replies): 33400
-Total Requests (including replies): 33400
-Successful Responses: 33400
+Total Requests (without replies): 35018
+Total Requests (including replies): 35018
+Successful Responses: 35018
 Timeout Responses: 0
 Total Failed Responses: 0
 % Success: 100.0
 % Timeout: 0.0
 % Failed: 0.0
 Response Time (Successful requests):
-[max] 266ms, [min] 1ms
-[avg] 57.35571856287425 ms, [stdev] 29.856099341622144ms
-Throughput: 555.7404326123128 requests per second
-Goodput: 555.7404326123128 requests per second
+[max] 255ms, [min] 1ms
+[avg] 54.74633045862128 ms, [stdev] 30.384158516224208ms
+Throughput: 581.8586644068923 requests per second
+Goodput: 581.8586644068923 requests per second
 Retry Rate (Successful requests): 1.0
 Sending WIPE-OUT to all servers...
-[ ... Completed in 0.052 seconds ]
+[ ... Completed in 0.131 seconds ]
 [OK]
-[ ... TEST Completed in 60.392 seconds ]
+[ ... TEST Completed in 60.566 seconds ]
 
 [ TEST Random Front-End Performance (1 clients, 60.0 seconds): PUT -> GET (closed loop) ]
 Checking if server(s) are up... 
 Checking if server is up... 
 [Test isAlive]
-[ ... Completed in 0.009 seconds ]
-[OK]
 Checking if server is up... 
 [Test isAlive]
-Checking if server is up... 
-[Test isAlive]
-Checking if server is up... 
-[Test isAlive]
-Checking if server is up... 
-[Test isAlive]
-Checking if server is up... 
-[Test isAlive]
-[ ... Completed in 0.006 seconds ]
-[OK]
-[ ... Completed in 0.023 seconds ]
-[OK]
-[ ... Completed in 0.025 seconds ]
-[OK]
-[ ... Completed in 0.034 seconds ]
-[OK]
-[ ... Completed in 0.065 seconds ]
-[OK]
-[ ... Completed in 0.121 seconds ]
-[OK]
-TEST_PASSED
-Stage 1 Random Front-End: Test Status: TEST_PASSED
-Clients: 1
-Total Requests (without replies): 2732
-Total Requests (including replies): 2732
-Successful Responses: 2732
-Timeout Responses: 0
-Total Failed Responses: 0
-% Success: 100.0
-% Timeout: 0.0
-% Failed: 0.0
-Response Time (Successful requests):
-[max] 126ms, [min] 0ms
-[avg] 21.843704245973644 ms, [stdev] 16.614947028379884ms
-Throughput: 45.51436901291129 requests per second
-Goodput: 45.51436901291129 requests per second
-Retry Rate (Successful requests): 1.0
-Sending WIPE-OUT to all servers...
-[ ... Completed in 0.195 seconds ]
-[OK]
-[ ... TEST Completed in 60.359 seconds ]
-
-[ TEST Random Front-End Performance (16 clients, 60.0 seconds): PUT -> GET (closed loop) ]
-Checking if server(s) are up... 
-Checking if server is up... 
-[Test isAlive]
-[ ... Completed in 0.014 seconds ]
-[OK]
 Checking if server is up... 
 [Test isAlive]
 Checking if server is up... 
@@ -166,39 +116,89 @@ Checking if server is up...
 [Test isAlive]
 [ ... Completed in 0.019 seconds ]
 [OK]
-[ ... Completed in 0.025 seconds ]
+[ ... Completed in 0.014 seconds ]
 [OK]
-Checking if server is up... 
-[Test isAlive]
-[ ... Completed in 0.027 seconds ]
+[ ... Completed in 0.034 seconds ]
 [OK]
-[ ... Completed in 0.029 seconds ]
+[ ... Completed in 0.032 seconds ]
 [OK]
-[ ... Completed in 0.098 seconds ]
+[ ... Completed in 0.043 seconds ]
 [OK]
-[ ... Completed in 0.198 seconds ]
+[ ... Completed in 0.05 seconds ]
+[OK]
+[ ... Completed in 0.082 seconds ]
 [OK]
 TEST_PASSED
 Stage 1 Random Front-End: Test Status: TEST_PASSED
-Clients: 16
-Total Requests (without replies): 23972
-Total Requests (including replies): 23972
-Successful Responses: 23972
+Clients: 1
+Total Requests (without replies): 2658
+Total Requests (including replies): 2658
+Successful Responses: 2658
 Timeout Responses: 0
 Total Failed Responses: 0
 % Success: 100.0
 % Timeout: 0.0
 % Failed: 0.0
 Response Time (Successful requests):
-[max] 205ms, [min] 1ms
-[avg] 39.92795761722009 ms, [stdev] 22.604172867409343ms
-Throughput: 398.6496599205095 requests per second
-Goodput: 398.6496599205095 requests per second
+[max] 113ms, [min] 0ms
+[avg] 22.438299473288186 ms, [stdev] 16.844063969642256ms
+Throughput: 44.29335599660051 requests per second
+Goodput: 44.29335599660051 requests per second
 Retry Rate (Successful requests): 1.0
 Sending WIPE-OUT to all servers...
-[ ... Completed in 0.105 seconds ]
+[ ... Completed in 0.138 seconds ]
 [OK]
-[ ... TEST Completed in 60.454 seconds ]
+[ ... TEST Completed in 60.238 seconds ]
+
+[ TEST Random Front-End Performance (16 clients, 60.0 seconds): PUT -> GET (closed loop) ]
+Checking if server(s) are up... 
+Checking if server is up... 
+[Test isAlive]
+Checking if server is up... 
+[Test isAlive]
+Checking if server is up... 
+[Test isAlive]
+Checking if server is up... 
+[Test isAlive]
+[ ... Completed in 0.018 seconds ]
+[OK]
+[ ... Completed in 0.068 seconds ]
+[OK]
+[ ... Completed in 0.075 seconds ]
+[OK]
+[ ... Completed in 0.058 seconds ]
+[OK]
+Checking if server is up... 
+[Test isAlive]
+Checking if server is up... 
+[Test isAlive]
+[ ... Completed in 0.019 seconds ]
+[OK]
+[ ... Completed in 0.021 seconds ]
+[OK]
+[ ... Completed in 0.155 seconds ]
+[OK]
+TEST_PASSED
+Stage 1 Random Front-End: Test Status: TEST_PASSED
+Clients: 16
+Total Requests (without replies): 25266
+Total Requests (including replies): 25266
+Successful Responses: 25266
+Timeout Responses: 0
+Total Failed Responses: 0
+% Success: 100.0
+% Timeout: 0.0
+% Failed: 0.0
+Response Time (Successful requests):
+[max] 214ms, [min] 1ms
+[avg] 37.91324309348531 ms, [stdev] 21.89129414075389ms
+Throughput: 420.4273162939297 requests per second
+Goodput: 420.4273162939297 requests per second
+Retry Rate (Successful requests): 1.0
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.208 seconds ]
+[OK]
+[ ... TEST Completed in 60.484 seconds ]
 
 [ TEST Random Front-End Performance (32 clients, 60.0 seconds): PUT -> GET (closed loop) ]
 Checking if server(s) are up... 
@@ -206,215 +206,8 @@ Checking if server is up...
 [Test isAlive]
 Checking if server is up... 
 [Test isAlive]
-[ ... Completed in 0.04 seconds ]
-[OK]
-[ ... Completed in 0.015 seconds ]
-[OK]
 Checking if server is up... 
 [Test isAlive]
-Checking if server is up... 
-[Test isAlive]
-Checking if server is up... 
-[Test isAlive]
-[ ... Completed in 0.002 seconds ]
-[OK]
-Checking if server is up... 
-[Test isAlive]
-[ ... Completed in 0.048 seconds ]
-[OK]
-[ ... Completed in 0.051 seconds ]
-[OK]
-[ ... Completed in 0.058 seconds ]
-[OK]
-[ ... Completed in 0.146 seconds ]
-[OK]
-TEST_PASSED
-[ CPU load (loadavg, last one minute) 16.58 ]
-Stage 1 Random Front-End: Test Status: TEST_PASSED
-Clients: 32
-Total Requests (without replies): 34120
-Total Requests (including replies): 34120
-Successful Responses: 34120
-Timeout Responses: 0
-Total Failed Responses: 0
-% Success: 100.0
-% Timeout: 0.0
-% Failed: 0.0
-Response Time (Successful requests):
-[max] 315ms, [min] 1ms
-[avg] 56.118786635404454 ms, [stdev] 31.695532596408153ms
-Throughput: 567.3334330988843 requests per second
-Goodput: 567.3334330988843 requests per second
-Retry Rate (Successful requests): 1.0
-Sending WIPE-OUT to all servers...
-[ ... Completed in 0.131 seconds ]
-[OK]
-[ ... TEST Completed in 60.626 seconds ]
-
-[ TEST Random Front-End Performance (64 clients, 60.0 seconds): PUT -> GET (closed loop) ]
-Checking if server(s) are up... 
-Checking if server is up... 
-[Test isAlive]
-Checking if server is up... 
-[Test isAlive]
-Checking if server is up... 
-[Test isAlive]
-Checking if server is up... 
-[Test isAlive]
-Checking if server is up... 
-Checking if server is up... 
-[Test isAlive]
-[Test isAlive]
-[ ... Completed in 0.011 seconds ]
-[OK]
-[ ... Completed in 0.016 seconds ]
-[OK]
-[ ... Completed in 0.009 seconds ]
-[OK]
-[ ... Completed in 0.016 seconds ]
-[OK]
-[ ... Completed in 0.033 seconds ]
-[OK]
-[ ... Completed in 0.046 seconds ]
-[OK]
-[ ... Completed in 0.057 seconds ]
-[OK]
-TEST_PASSED
-[ CPU load (loadavg, last one minute) 16.05 ]
-Stage 1 Random Front-End: Test Status: TEST_PASSED
-Clients: 64
-Total Requests (without replies): 37490
-Total Requests (including replies): 37506
-Successful Responses: 37490
-Timeout Responses: 0
-Total Failed Responses: 0
-% Success: 100.0
-% Timeout: 0.0
-% Failed: 0.0
-Response Time (Successful requests):
-[max] 399ms, [min] 1ms
-[avg] 102.05812216591092 ms, [stdev] 62.118227726158935ms
-Throughput: 622.509298618491 requests per second
-Goodput: 622.509298618491 requests per second
-Retry Rate (Successful requests): 1.0004267804747933
-Sending WIPE-OUT to all servers...
-[ ... Completed in 0.107 seconds ]
-[OK]
-[ ... TEST Completed in 70.447 seconds ]
-
-[ TEST Random Front-End Performance (128 clients, 60.0 seconds): PUT -> GET (closed loop) ]
-Checking if server(s) are up... 
-Checking if server is up... 
-[Test isAlive]
-Checking if server is up... 
-[Test isAlive]
-[ ... Completed in 0.009 seconds ]
-[OK]
-Checking if server is up... 
-[Test isAlive]
-Checking if server is up... 
-[ ... Completed in 0.007 seconds ]
-[OK]
-[Test isAlive]
-Checking if server is up... 
-[Test isAlive]
-Checking if server is up... 
-[Test isAlive]
-[ ... Completed in 0.011 seconds ]
-[OK]
-[ ... Completed in 0.011 seconds ]
-[OK]
-[ ... Completed in 0.013 seconds ]
-[OK]
-[ ... Completed in 0.027 seconds ]
-[OK]
-[ ... Completed in 0.073 seconds ]
-[OK]
-TEST_PASSED
-[ CPU load (loadavg, last one minute) 16.58 ]
-Stage 1 Random Front-End: Test Status: TEST_PASSED
-Clients: 128
-Total Requests (without replies): 37352
-Total Requests (including replies): 41967
-Successful Responses: 37329
-Timeout Responses: 23
-Total Failed Responses: 0
-% Success: 99.9384236453202
-% Timeout: 0.06157635467980296
-% Failed: 0.0
-Response Time (Successful requests):
-[max] 538ms, [min] 0ms
-[avg] 141.66953307080286 ms, [stdev] 88.5659544969838ms
-Throughput: 614.069409965969 requests per second
-Goodput: 613.6912884081082 requests per second
-Retry Rate (Successful requests): 1.1235542942814307
-Sending WIPE-OUT to all servers...
-[ ... Completed in 0.119 seconds ]
-[OK]
-[ ... TEST Completed in 81.217 seconds ]
-
-[ TEST Random Front-End Performance (256 clients, 60.0 seconds): PUT -> GET (closed loop) ]
-Checking if server(s) are up... 
-Checking if server is up... 
-[Test isAlive]
-Checking if server is up... 
-[Test isAlive]
-[ ... Completed in 0.002 seconds ]
-[OK]
-Checking if server is up... 
-[Test isAlive]
-Checking if server is up... 
-[Test isAlive]
-Checking if server is up... 
-[Test isAlive]
-Checking if server is up... 
-[ ... Completed in 0.017 seconds ]
-[OK]
-[Test isAlive]
-[ ... Completed in 0.026 seconds ]
-[OK]
-[ ... Completed in 0.037 seconds ]
-[OK]
-[ ... Completed in 0.033 seconds ]
-[OK]
-[ ... Completed in 0.077 seconds ]
-[OK]
-[ ... Completed in 0.082 seconds ]
-[OK]
-TEST_PASSED
-[ CPU load (loadavg, last one minute) 14.30 ]
-Stage 1 Random Front-End: Test Status: TEST_PASSED
-Clients: 256
-Total Requests (without replies): 38432
-Total Requests (including replies): 52607
-Successful Responses: 37850
-Timeout Responses: 582
-Total Failed Responses: 0
-% Success: 98.48563696919234
-% Timeout: 1.5143630308076603
-% Failed: 0.0
-Response Time (Successful requests):
-[max] 598ms, [min] 0ms
-[avg] 152.36401585204754 ms, [stdev] 92.94804198923481ms
-Throughput: 624.1696847644259 requests per second
-Goodput: 614.7174898088448 requests per second
-Retry Rate (Successful requests): 1.3688332639467111
-Sending WIPE-OUT to all servers...
-[ ... Completed in 0.098 seconds ]
-[OK]
-[ ... TEST Completed in 91.868 seconds ]
-
-[ TEST Capacity Insert (Value Size = 1000 bytes, Limit = 10000 PUTs, ~9.54 MiB) ]
-Issuing puts... 
-[DONE in 26.891s]
-Confirming... 
-[DONE in 25.079s]
-TEST_PASSED
-[ ... TEST Completed in 51.999 seconds ]
-First crash test: to shutdown - 3 nodes.
-
-[ TEST Crash; Key Recovery ]
-Checking if server(s) are up... 
 Checking if server is up... 
 [Test isAlive]
 Checking if server is up... 
@@ -425,10 +218,142 @@ Checking if server is up...
 [OK]
 [ ... Completed in 0.016 seconds ]
 [OK]
-[ ... Completed in 0.036 seconds ]
+[ ... Completed in 0.033 seconds ]
 [OK]
-[ ... Completed in 0.043 seconds ]
+[ ... Completed in 0.04 seconds ]
 [OK]
+[ ... Completed in 0.038 seconds ]
+[OK]
+[ ... Completed in 0.047 seconds ]
+[OK]
+[ ... Completed in 0.098 seconds ]
+[OK]
+TEST_PASSED
+[ CPU load (loadavg, last one minute) 17.26 ]
+Stage 1 Random Front-End: Test Status: TEST_PASSED
+Clients: 32
+Total Requests (without replies): 35476
+Total Requests (including replies): 35476
+Successful Responses: 35476
+Timeout Responses: 0
+Total Failed Responses: 0
+% Success: 100.0
+% Timeout: 0.0
+% Failed: 0.0
+Response Time (Successful requests):
+[max] 247ms, [min] 1ms
+[avg] 53.92707746081858 ms, [stdev] 30.5530940074394ms
+Throughput: 588.9110225763612 requests per second
+Goodput: 588.9110225763612 requests per second
+Retry Rate (Successful requests): 1.0
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.148 seconds ]
+[OK]
+[ ... TEST Completed in 60.595 seconds ]
+
+[ TEST Random Front-End Performance (64 clients, 60.0 seconds): PUT -> GET (closed loop) ]
+Checking if server(s) are up... 
+Checking if server is up... 
+Checking if server is up... 
+[Test isAlive]
+Checking if server is up... 
+[Test isAlive]
+Checking if server is up... 
+[Test isAlive]
+[ ... Completed in 0.006 seconds ]
+[OK]
+Checking if server is up... 
+Checking if server is up... 
+[Test isAlive]
+[Test isAlive]
+[Test isAlive]
+[ ... Completed in 0.026 seconds ]
+[OK]
+[ ... Completed in 0.046 seconds ]
+[OK]
+[ ... Completed in 0.042 seconds ]
+[OK]
+[ ... Completed in 0.061 seconds ]
+[OK]
+[ ... Completed in 0.084 seconds ]
+[OK]
+[ ... Completed in 0.092 seconds ]
+[OK]
+TEST_PASSED
+[ CPU load (loadavg, last one minute) 14.37 ]
+Stage 1 Random Front-End: Test Status: TEST_PASSED
+Clients: 64
+Total Requests (without replies): 38254
+Total Requests (including replies): 38278
+Successful Responses: 38254
+Timeout Responses: 0
+Total Failed Responses: 0
+% Success: 100.0
+% Timeout: 0.0
+% Failed: 0.0
+Response Time (Successful requests):
+[max] 398ms, [min] 1ms
+[avg] 99.55622941391749 ms, [stdev] 61.49122937946444ms
+Throughput: 635.2796598910588 requests per second
+Goodput: 635.2796598910588 requests per second
+Retry Rate (Successful requests): 1.0006273853714645
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.143 seconds ]
+[OK]
+[ ... TEST Completed in 70.511 seconds ]
+
+[ TEST Random Front-End Performance (128 clients, 60.0 seconds): PUT -> GET (closed loop) ]
+Checking if server(s) are up... 
+Checking if server is up... 
+[Test isAlive]
+[ ... Completed in 0.002 seconds ]
+[OK]
+Checking if server is up... 
+[Test isAlive]
+Checking if server is up... 
+[Test isAlive]
+[ ... Completed in 0.009 seconds ]
+[OK]
+Checking if server is up... 
+[Test isAlive]
+Checking if server is up... 
+[Test isAlive]
+Checking if server is up... 
+[ ... Completed in 0.044 seconds ]
+[OK]
+[Test isAlive]
+[ ... Completed in 0.019 seconds ]
+[OK]
+[ ... Completed in 0.01 seconds ]
+[OK]
+[ ... Completed in 0.03 seconds ]
+[OK]
+[ ... Completed in 0.094 seconds ]
+[OK]
+TEST_PASSED
+[ CPU load (loadavg, last one minute) 16.45 ]
+Stage 1 Random Front-End: Test Status: TEST_PASSED
+Clients: 128
+Total Requests (without replies): 39123
+Total Requests (including replies): 43512
+Successful Responses: 39103
+Timeout Responses: 20
+Total Failed Responses: 0
+% Success: 99.94887917593232
+% Timeout: 0.05112082406768397
+% Failed: 0.0
+Response Time (Successful requests):
+[max] 481ms, [min] 1ms
+[avg] 136.7971766872107 ms, [stdev] 84.46872111556667ms
+Throughput: 646.2552446397304 requests per second
+Goodput: 645.92487363309 requests per second
+Retry Rate (Successful requests): 1.1121846484165325
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.077 seconds ]
+[OK]
+[ ... TEST Completed in 80.844 seconds ]
+
+[ TEST Random Front-End Performance (256 clients, 60.0 seconds): PUT -> GET (closed loop) ]
 Checking if server(s) are up... 
 Checking if server is up... 
 [Test isAlive]
@@ -436,18 +361,93 @@ Checking if server is up...
 [Test isAlive]
 Checking if server is up... 
 [Test isAlive]
-[ ... Completed in 0.021 seconds ]
-[OK]
+Checking if server is up... 
+[Test isAlive]
+Checking if server is up... 
+[Test isAlive]
 [ ... Completed in 0.016 seconds ]
 [OK]
-[ ... Completed in 0.036 seconds ]
+[ ... Completed in 0.008 seconds ]
+[OK]
+Checking if server is up... 
+[Test isAlive]
+[ ... Completed in 0.022 seconds ]
+[OK]
+[ ... Completed in 0.034 seconds ]
+[OK]
+[ ... Completed in 0.056 seconds ]
+[OK]
+[ ... Completed in 0.037 seconds ]
+[OK]
+[ ... Completed in 0.076 seconds ]
+[OK]
+TEST_PASSED
+[ CPU load (loadavg, last one minute) 14.41 ]
+Stage 1 Random Front-End: Test Status: TEST_PASSED
+Clients: 256
+Total Requests (without replies): 39072
+Total Requests (including replies): 53241
+Successful Responses: 38437
+Timeout Responses: 635
+Total Failed Responses: 0
+% Success: 98.37479524979526
+% Timeout: 1.6252047502047502
+% Failed: 0.0
+Response Time (Successful requests):
+[max] 568ms, [min] 1ms
+[avg] 147.67484455082342 ms, [stdev] 93.77837737143292ms
+Throughput: 629.5538404524435 requests per second
+Goodput: 619.322301532314 requests per second
+Retry Rate (Successful requests): 1.3626382063882063
+Sending WIPE-OUT to all servers...
+[ ... Completed in 0.099 seconds ]
+[OK]
+[ ... TEST Completed in 92.303 seconds ]
+
+[ TEST Capacity Insert (Value Size = 1000 bytes, Limit = 10000 PUTs, ~9.54 MiB) ]
+Issuing puts... 
+[DONE in 25.803s]
+Confirming... 
+[DONE in 24.95s]
+TEST_PASSED
+[ ... TEST Completed in 50.802 seconds ]
+First crash test: to shutdown - 3 nodes.
+
+[ TEST Crash; Key Recovery ]
+Checking if server(s) are up... 
+Checking if server is up... 
+[Test isAlive]
+Checking if server is up... 
+[Test isAlive]
+[ ... Completed in 0.017 seconds ]
+[OK]
+Checking if server is up... 
+[Test isAlive]
+[ ... Completed in 0.003 seconds ]
+[OK]
+[ ... Completed in 0.022 seconds ]
 [OK]
 [ ... Completed in 0.055 seconds ]
 [OK]
+Checking if server(s) are up... 
+Checking if server is up... 
+[Test isAlive]
+[ ... Completed in 0.019 seconds ]
+[OK]
+Checking if server is up... 
+[Test isAlive]
+Checking if server is up... 
+[Test isAlive]
+[ ... Completed in 0.009 seconds ]
+[OK]
+[ ... Completed in 0.02 seconds ]
+[OK]
+[ ... Completed in 0.111 seconds ]
+[OK]
 Determining if storage was successful... 
-[DONE in 24.096s]
+[DONE in 24.044s]
 Sending SHUTDOWN to 3 servers.
-[ ... Completed in 3.822 seconds ]
+[ ... Completed in 3.818 seconds ]
 Checking if server(s) are up... 
 [Test isAlive]
 [Test isAlive]
@@ -470,10 +470,93 @@ Request Timeout.
 Request Timeout.
 Request Timeout.
 Request Timeout.
->>> Server node 169.44.186.88 is not down as expected.
->>> Server node 169.44.186.88 is not down as expected.
->>> Server node 169.44.186.88 is not down as expected.
-[ ... Completed in 25.052 seconds ]
-Error: Servers are still up after being issued shutdown command!
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+[ ... Completed in 38.061 seconds ]
+[OK]
+Checking if server(s) are up... 
+Checking if server is up... 
+[Test isAlive]
+Checking if server is up... 
+[Test isAlive]
+[ ... Completed in 0.002 seconds ]
+[OK]
+Checking if server is up... 
+[Test isAlive]
+[ ... Completed in 0.009 seconds ]
+[OK]
+[ ... Completed in 0.013 seconds ]
+[OK]
+[ ... Completed in 0.02 seconds ]
+[OK]
+Attempting retrieval of keys... 
+[DONE in 13.857s]
+Checking if server(s) are up... 
+[Test isAlive]
+[Test isAlive]
+[Test isAlive]
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+Request Timeout.
+[ ... Completed in 38.054 seconds ]
+[OK]
+Checking if server(s) are up... 
+Checking if server is up... 
+[Test isAlive]
+Checking if server is up... 
+[Test isAlive]
+[ ... Completed in 0.004 seconds ]
+[OK]
+Checking if server is up... 
+[Test isAlive]
+[ ... Completed in 0.02 seconds ]
+[OK]
+[ ... Completed in 0.028 seconds ]
+[OK]
+[ ... Completed in 0.044 seconds ]
+[OK]
+Of 10000 usable puts:
+Failed: 10000 Timed out: 0 Invalid value: 0
+Expecting 50.0% keys to fail. Actual failed: 100.0%
+Keys failed after server crash : 100.0%
+Percentage of failed keys should be between 0.0% and 80.0%.
+Failed: 10000 Timed out: 0 Invalid value: 0
 Crash test failed. Aborting.
-Testing completed in 842.37s
+Testing completed in 907.081s
