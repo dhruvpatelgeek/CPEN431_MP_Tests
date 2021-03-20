@@ -189,6 +189,8 @@ public class TestDriver {
         System.out.println("Exclude 256 clients tests: " + excludeTest);
 
         System.out.println("Checking if the test client is running on GC");
+        
+        /*
         String instanceType = getGCInstanceType();
         if (instanceType.equals("NA")) {
             System.err.println("Unable to determine instance type.");
@@ -197,6 +199,7 @@ public class TestDriver {
             System.out.println("Detected instance type: " + instanceType);
         }
         System.out.println();
+        */
 
         ArrayList<ServerNode> bigListServerNodes = TestUtils.getServerNodes(bigListFileName);
         if (bigListServerNodes == null)
