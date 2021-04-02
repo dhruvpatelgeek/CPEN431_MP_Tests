@@ -171,7 +171,7 @@ public class TestDriver {
         final long PERF_TEST_TIMER = 60 * 1000;
         final long CAPA_TEST_TIMER = 600 * 1000;
         final int MAX_PROTOCOL_VALUE_BYTES = 1000;
-        final int[] CLIENT_TYPES_SINGLE_SERVER = new int[]{1, 16, 32, 128};
+        final int[] CLIENT_TYPES_SINGLE_SERVER = new int[]{1, 16, 32, 128, 256};
         final int[] CLIENT_TYPES = new int[]{1, 16, 32, 64, 128, 256};
         final int MIN_NODE_COUNT = 1;
         final int SUBMIT_NODE_COUNT = 3;
@@ -648,7 +648,7 @@ public class TestDriver {
 
             // args[1] is the file path for the list of servers
             // args[2] is the student ID
-
+            
             if (args.length == 3) {
                 if(args[0].equals("1")){
                     System.out.println("Running test in local mode! Milestone1.");
