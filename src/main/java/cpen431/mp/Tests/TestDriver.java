@@ -171,9 +171,9 @@ public class TestDriver {
         final long PERF_TEST_TIMER = 60 * 1000;
         final long CAPA_TEST_TIMER = 600 * 1000;
         final int MAX_PROTOCOL_VALUE_BYTES = 1000;
-        final int[] CLIENT_TYPES_SINGLE_SERVER = new int[]{1, 16, 32};
+        final int[] CLIENT_TYPES_SINGLE_SERVER = new int[]{1, 16, 32, 128};
         final int[] CLIENT_TYPES = new int[]{1, 16, 32, 64, 128, 256};
-        final int MIN_NODE_COUNT = 3;
+        final int MIN_NODE_COUNT = 1;
         final int SUBMIT_NODE_COUNT = 3;
         final int SHUTDOWN_NODE_COUNT = 3;
         final int TIME_BETWEEN_CRASHES = 120;
@@ -260,6 +260,7 @@ public class TestDriver {
             Tests.testUtilElapsedTime();
         }
 
+        /*
         // Distributed performance test.
         for (int clients : CLIENT_TYPES) {
             Tests.testUtilStartTimer();
@@ -459,6 +460,7 @@ public class TestDriver {
             //return;
         }
         Tests.testUtilElapsedTime();
+        */
 
         System.out.println("Completed Milestone2 Tests.");
     }
